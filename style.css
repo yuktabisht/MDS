@@ -541,7 +541,7 @@ body{
 
     /* HEADER */
     .header {
-        height: 11%;
+        height: 9%;
     }
 
     .logo {
@@ -762,5 +762,6 @@ body{
         padding: 0 12vw;
     }
 }
+
 
 
