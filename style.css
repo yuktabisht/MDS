@@ -763,5 +763,261 @@ body{
     }
 }
 
+@media (max-width: 600px) {
+
+    /* HEADER */
+    .header {
+        height: 8%;
+    }
+
+    .logo {
+        width: 17%;
+        left: 4%;
+        top: 2.5%;
+    }
+
+    .header_tab1,
+    .header_tab2,
+    .header_tab3,
+    .header_tab4,
+    .header_tab5 {
+        font-size: 0.85em;
+        top: 2.5%;
+    }
+
+    .header_tab1{ left: 25%; }
+    .header_tab2{ left: 35%; }
+    .header_tab3{ left: 46%; }
+    .header_tab4{ left:60%;}
+    .header_tab5{ left: 73%; width:10%; top:2%;}
+
+    .brief-btn {
+       padding:3px 6px;
+       width:7%;
+    font-size:0.9em;
+    top:0.8%;
+    right:3%;  
+    }
+
+    /* LANDING IMAGES */
+    .homepage_image1 img {
+        height: 30vh;
+        left: 35%;
+        top: 10%;
+    }
+
+    .homepage_image2 img {
+        height: 12vh;
+        top: 20%;
+        
+    }
+
+    .landing_page_heading {
+        font-size: 1.6em;
+        top: 14vh;
+        left: 5.5vw;
+    }
+
+    .landing_page_subheading {
+        font-size: 0.5em;
+        top: 26vh;
+        left: 5vw;
+        width:35vw;
+    }
+
+    .green-part {
+        top: 33vh;
+        left: 10vw;
+    }
+
+.green-img {
+    height: 3.5vh;
+}
+
+.green-text {
+    font-size: 0.65em;
+}
+
+.arrow {
+    right: 1.75vw;
+}
+
+.arrow img {
+    height: 1.8vh;
+}
+
+    /* SILVER SECTION */
+    .silver-section {
+        top: 40vh;
+        height: 263vh;
+        padding: 20px 4vw;
+    }
+
+    .silver-section_heading {
+        font-size: 1.3em;
+        width: 90%;
+        left: 5%;
+        letter-spacing:0.3px;
+    }
+
+    .silver-section_subheading {
+        font-size: 0.8em;
+        left: 50%;
+        width:80vw;
+        transform:translate(-50%);
+        top: 11.5vh;
+    }
+
+    .silver-section-part1,
+    .silver-section-part2 {
+        width: 86%;
+        left: 7%;
+        font-size: 0.9em;
+    }
+
+
+
+    .silver-section-part1 { top: 33vh; }
+    .silver-section-part2 { top: 62vh; }
+
+   
+
+.silver-section-ref img{
+     top:16.5vh;
+     left:50%;
+        transform:translate(-50%);
+     width:32%;
+     
+}
+
+
+.silver-section-image-bg img{
+     top:15vh;
+     left:50%;
+        transform:translate(-50%);
+     width:28%;
+}
+
+    /* SERVICES */
+    .charcoal-box {
+        height: 170vh;
+        padding-bottom: 30px;
+        top:125vh;
+    }
+
+    .service1,
+    .service2,
+    .service3,
+    .service4 {
+        width: 90%;
+        left: 5%;
+        margin-top: 10px;
+    }
+
+    .service1{top:-8vh;}
+    .service2{top:32vh;}
+    .service3{top:72vh;}
+    .service4{top:114vh}
+
+    .service1 img,
+.service2 img,
+.service3 img,
+.service4 img{
+    width:40%;
+}
+
+.service1 p,
+.service2 p,
+.service3 p,
+.service4 p{
+    line-height:0.9;
+    padding-top:1.3vh;
+    font-size:0.9em;
+}
+
+    .charcoal-box-heading {
+        font-size: 1.9em;
+        left: 50%;
+    }
+
+    /* GALLERY */
+    .our-gallery-heading {
+        top: 300vh;
+        font-size: 3em;
+        left:50%;
+        width:65%;
+        transform:translate(-50%);
+        
+    }
+
+    .marquee-container {
+        top: 308vh;
+        padding-right:2px;
+    }
+
+    .item img {
+    width: 120px;
+    height: 120px;
+}
+
+    /* MAP */
+    .map{
+    top:368vh;
+    height:35vh;
+}
+
+    /* FOOTER */
+    .footer{
+    height:82vh;
+    top:340vh;
+}
+
+    .footer-text-left {
+        width: 80%;
+        font-size: 0.85em;
+        line-height:1;
+        padding-top:15px;
+    }
+
+    .footer-text-right1{ top:395vh; }
+.footer-text-right2{ top:402vh; }
+.footer-text-right3{ top:409vh;}
+
+.footer-text-right1,
+.footer-text-right2,
+.footer-text-right3 {
+    right: 4vw;
+    font-size: 0.9em;
+    font-weight:200;
+    text-align: right; 
+}
+
+.footer-text-right1 img,
+.footer-text-right2 img,
+.footer-text-right3 img {
+    height: 3vh;
+    width: auto;
+}
+
+    .social-links {
+        top: 417vh;
+        padding-left: 30px;
+        right:4.5vw;
+        
+    }
+
+    .social-links img {
+        width: 6vw;
+    }
+
+    .footer-bottom {
+    height: 3vh;
+    padding: 1vw 10vw; 
+    top: 422.5vh;
+    font-size: 0.5rem;
+    font-weight: 200;
+}
+}
+
 
 
