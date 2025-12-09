@@ -537,181 +537,6 @@ body{
     box-sizing: border-box; /* important for padding handling */
 }
 
-@media (max-width: 768px ) {
-
-    /* HEADER */
-    .header {
-        height: 9%;
-    }
-
-    .logo {
-        width: 32%;
-        left: 4%;
-        top: 2%;
-    }
-
-    .header_tab1,
-    .header_tab2,
-    .header_tab3,
-    .header_tab4,
-    .header_tab5 {
-        font-size: 1.2em;
-        top: 8%;
-    }
-
-    .header_tab1{ left: 40%; }
-    .header_tab2{ left: 54%; }
-    .header_tab3{ left: 68%; }
-    .header_tab4{ left: 82%; }
-    .header_tab5{ left: 96%; }
-
-    .brief-btn {
-        display: none; /* Mobile me remove karna best hota hai */
-    }
-
-    /* LANDING IMAGES */
-    .homepage_image1 img {
-        height: 55vh;
-        left: 20%;
-        top: 16%;
-    }
-
-    .homepage_image2 img {
-        height: 45vh;
-        top: 28%;
-    }
-
-    .landing_page_heading {
-        font-size: 2.8em;
-        top: 60vh;
-        left: 5vw;
-    }
-
-    .landing_page_subheading {
-        font-size: 0.9em;
-        top: 77vh;
-        left: 6vw;
-    }
-
-    .green-part {
-        top: 88vh;
-        left: 10vw;
-    }
-
-    /* SILVER SECTION */
-    .silver-section {
-        top: 100vh;
-        height: auto;
-        padding-bottom: 40px;
-    }
-
-    .silver-section_heading {
-        font-size: 2.2em;
-        width: 90%;
-        left: 5%;
-    }
-
-    .silver-section_subheading {
-        font-size: 1.2em;
-        left: 5%;
-        top: 20vh;
-    }
-
-    .silver-section-part1,
-    .silver-section-part2 {
-        width: 90%;
-        left: 5%;
-        font-size: 1.15em;
-    }
-
-    .silver-section-part1 { top: 30vh; }
-    .silver-section-part2 { top: 75vh; }
-
-    .silver-section-ref img,
-    .silver-section-image-bg img {
-        display: none;
-    }
-
-    /* SERVICES */
-    .charcoal-box {
-        height: auto;
-        padding-bottom: 30px;
-        top: 210vh;
-    }
-
-    .service1,
-    .service2,
-    .service3,
-    .service4 {
-        width: 90%;
-        left: 5%;
-        position: relative;
-        margin-top: 40px;
-    }
-
-    .charcoal-box-heading {
-        font-size: 3em;
-        left: 50%;
-    }
-
-    /* GALLERY */
-    .our-gallery-heading {
-        top: 330vh;
-        font-size: 3.2em;
-    }
-
-    .marquee-container {
-        top: 340vh;
-    }
-
-    /* MAP */
-    .map {
-        top: 390vh;
-        width: 90vw !important;
-    }
-
-    /* FOOTER */
-    .footer {
-        top: 385vh;
-        height: auto;
-    }
-
-    .footer-text-left {
-        width: 90%;
-        font-size: 1em;
-    }
-
-    .footer-text-right1,
-    .footer-text-right2,
-    .footer-text-right3 {
-        position: relative;
-        right: 0;
-        top: 0;
-        margin-top: 20px;
-        text-align: left;
-        padding-left: 20px;
-    }
-
-    .social-links {
-        top: auto;
-        padding-left: 20px;
-        margin-top: 20px;
-        position: relative;
-    }
-
-    .social-links img {
-        width: 7vw;
-    }
-
-    .footer-bottom {
-        position: relative;
-        top: auto;
-        padding: 0 8vw;
-        height: 6vh;
-        margin-top: 30px;
-        font-size: 0.7rem;
-    }
-}
 
 
 @media (max-width: 1024px and min-width:769px) {
@@ -763,7 +588,7 @@ body{
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
     /* HEADER */
     .header {
@@ -1018,6 +843,7 @@ body{
     font-weight: 200;
 }
 }
+
 
 
 
